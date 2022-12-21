@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.sub-menu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hidden {
+    visibility: hidden;
+}
